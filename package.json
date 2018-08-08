@@ -1,0 +1,26 @@
+{
+  "name": "assignment-nodejs",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Dung Le",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config": "^2.0.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-validator": "^5.3.0",
+    "mongoose": "^5.2.7"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
+  },
+  "engines": {
+    "node": "8.5.0"
+  }
+}

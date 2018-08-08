@@ -1,2 +1,13 @@
 # assignment-nodejs
-NFQ Assignment
+NFQ Assignment - Build URL Shortener API
+
+# Usage
+## Run
+```
+npm start
+```
+
+## Run test
+```
+npm test
+```
