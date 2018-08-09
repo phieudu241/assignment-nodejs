@@ -7,6 +7,7 @@ router.get('/', function (req, res) {
 });
 
 router.route('/urls')
+    .get(getHandler('urls', 'get'))
     .post(getHandler('urls', 'post'));
 
 function getHandler(name, method) {
