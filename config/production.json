@@ -1,0 +1,5 @@
+{
+  "database": {
+    "url": "mongodb+srv://phieudu241:123456!A@cluster0-4xjzf.mongodb.net/prod?retryWrites=true"
+  }
+}

@@ -27,7 +27,7 @@ app.use(BASE_URL, router);
 // App configurations
 app.set('port', (process.env.PORT || port));
 
-app.listen(port, function () {
+app.listen(app.get('port'), function () {
     console.log(`URL Shortener API is running on port: ${app.get('port')}`);
 });
 
