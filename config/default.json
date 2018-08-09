@@ -4,5 +4,6 @@
     "us",
     "asia-1",
     "asia-2"
-  ]
+  ],
+  "shorten_base_url": "bit.ly"
 }

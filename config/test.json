@@ -1,5 +1,5 @@
 {
   "database": {
-    "url": "test db url"
+    "url": "mongodb+srv://phieudu241:123456!A@cluster0-4xjzf.mongodb.net/test?retryWrites=true"
   }
 }
