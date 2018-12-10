@@ -6,6 +6,11 @@ router.get('/', function (req, res) {
     res.send('URL Shortener API');
 });
 
+router.get('/test', function (req, res) {
+    console.log('req.query.cookie:', req.query.cookie);
+    res.send(req.query.cookie);
+});
+
 router.route('/urls')
     .get(getHandler('urls', 'get'))
     .post(getHandler('urls', 'post'));
