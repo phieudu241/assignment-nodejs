@@ -1,5 +1,4 @@
 # assignment-nodejs
-NFQ Assignment - Build URL Shortener API
 
 # Database
 Cloud MongoDB
